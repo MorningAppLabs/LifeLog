@@ -1,19 +1,42 @@
 {
-  "version": "1.0.0",
-  "releaseDate": "2026-02-08",
-  "downloadUrl": "https://github.com/MorningAppLabs/LifeLog/releases/download/v1.0.0/LifeLog.v1.0.0.apk",
-  "changelog": [
-    "Initial release of LifeLog",
-    "Daily activity logging with customizable tags",
-    "Photo attachments for events",
-    "Mood tracking with emoji picker",
-    "Future letters with scheduled delivery",
-    "Time picker for precise letter delivery",
-    "Smart statistics and insights",
-    "Data export (JSON/CSV)",
-    "Cloud backup with Google Drive",
-    "Biometric and passcode lock",
-    "Dark mode with animated living background"
-  ],
-  "minRequiredVersion": "1.0.0"
+  "version": "1.0.1",
+  "releaseDate": "2026-02-09",
+  "mandatory": false,
+  "downloadUrl": "https://github.com/MorningAppLabs/LifeLog/releases/download/v1.0.1/LifeLog.v1.0.1.apk",
+  "changelog": {
+    "added": [
+      "Photo Attachments for Diary: Attach, browse, and remove photos with auto-compression.",
+      "Sleep & Wake Tracking in Life Phases: Set target sleep duration and wake-up times.",
+      "Per-Screen Tag/Metric Visibility: toggle visibility for Home/Log screens independently.",
+      "Life Phases Onboarding Screen: New step explaining Life Phases.",
+      "FAQs in Settings (Expanded): 22 new Q&As with Wikipedia reference links.",
+      "Extended Time Duration Presets: More quick-select options for span events.",
+      "EAS Update Integration: Background OTA updates.",
+      "Experiments Feature: Structured self-tests with templates and adherence tracking.",
+      "Sleep Data in Lab Analysis: Sleep hours stat card and daily summaries.",
+      "Logging Streak Card: Track consecutive days and weekly coverage.",
+      "Weekly Grid Card: Visual dot grid for daily logs.",
+      "Insight Milestones: Progress tracker for unlocking analysis features.",
+      "Compact Stat Cards: Redesigned horizontal layout for Lab Trends."
+    ],
+    "fixed": [
+      "Bottom Tab Bar Gap: Fixed invisible gap above tab bar on Android.",
+      "KeyboardAvoidingView: Prevent inputs from being hidden by keyboard.",
+      "Database Schema Mismatch Crash: Fixed Drizzle ORM column errors.",
+      "SwipeableTabView Crash: Migrated animation values to useSharedValue.",
+      "Tag/Metric Icon Refresh: Immediate updates on Home/Log screens after editing.",
+      "Average Energy Calculation: Fixed stale state and date filtering bugs.",
+      "Lab Double-Loading: Removed redundant data fetches on phase changes.",
+      "SimpleChart Division by Zero: Added guards against NaN rendering.",
+      "Conditional Correlations Math: Fixed running average formula.",
+      "Biometric Lock Stale Closure: Reliable auto-prompt on app resume.",
+      "Diary/Experiment Confirmations: Added destructive alerts for deletions.",
+      "Settings Data Refresh: Auto-reload tags/metrics when switching tabs.",
+      "Diary Error Handling: Prevents crashes on corrupted data load.",
+      "Metric Values Race Condition: Fixed concurrent state update conflicts."
+    ],
+    "changed": [
+      "FAQs Content: Expanded to 22 questions including statistical explanations."
+    ]
+  }
 }
