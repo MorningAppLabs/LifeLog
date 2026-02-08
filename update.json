@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "releaseDate": "2026-02-08",
-  "downloadUrl": "https://github.com/MorningAppLabs/LifeLog/releases/download/v1.0.0/LifeLog-v1.0.0.apk",
+  "downloadUrl": "https://github.com/MorningAppLabs/LifeLog/releases/download/v1.0.0/LifeLog.v1.0.0.apk",
   "changelog": [
     "Initial release of LifeLog",
     "Daily activity logging with customizable tags",
