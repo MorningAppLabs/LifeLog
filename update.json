@@ -1,19 +1,19 @@
 {
   "version": "1.0.0",
-  "releaseDate": "2026-02-08",
+  "releaseDate": "2026-02-09",
   "downloadUrl": "https://github.com/MorningAppLabs/LifeLog/releases/download/v1.0.0/LifeLog.v1.0.0.apk",
   "changelog": [
-    "Initial release of LifeLog",
-    "Daily activity logging with customizable tags",
-    "Photo attachments for events",
-    "Mood tracking with emoji picker",
-    "Future letters with scheduled delivery",
-    "Time picker for precise letter delivery",
-    "Smart statistics and insights",
-    "Data export (JSON/CSV)",
-    "Cloud backup with Google Drive",
-    "Biometric and passcode lock",
-    "Dark mode with animated living background"
+    "Daily logging with customizable tags (instant events and time spans)",
+    "Mood & Energy tracking with visual emoji slider on all personas",
+    "Mood-reactive living background across all screens",
+    "Diary with photo attachments and future letters",
+    "Lab: Trends, Patterns, What-If Simulator, Experiments",
+    "Life Phases with per-phase sleep goals",
+    "Smart tag suggestions based on time-of-day patterns",
+    "Biometric lock with passcode fallback",
+    "EAS over-the-air updates",
+    "Beautiful dark theme with smooth animations",
+    "Fully local — all data stays on your device"
   ],
   "minRequiredVersion": "1.0.0"
 }
