@@ -1,19 +1,35 @@
 {
-  "version": "1.0.0",
-  "releaseDate": "2026-02-09",
-  "downloadUrl": "https://github.com/MorningAppLabs/LifeLog/releases/download/v1.0.0/LifeLog.v1.0.0.apk",
+  "version": "1.1.0",
+  "releaseDate": "2026-02-19",
+  "downloadUrl": "https://github.com/MorningAppLabs/LifeLog/releases/download/v1.1.0/LifeLog.v1.1.0.apk",
   "changelog": [
-    "Daily logging with customizable tags (instant events and time spans)",
-    "Mood & Energy tracking with visual emoji slider on all personas",
-    "Mood-reactive living background across all screens",
-    "Diary with photo attachments and future letters",
-    "Lab: Trends, Patterns, What-If Simulator, Experiments",
-    "Life Phases with per-phase sleep goals",
-    "Smart tag suggestions based on time-of-day patterns",
-    "Biometric lock with passcode fallback",
-    "EAS over-the-air updates",
-    "Beautiful dark theme with smooth animations",
-    "Fully local — all data stays on your device"
+    "Diary screen redesigned — Future Me Letters fully revamped with compose flow, transit tracker, and delivery animations",
+    "New Feeling toggle — control which metrics appear in the vibe check separately from Home & Log",
+    "User name system — add your name in onboarding or Settings, see it everywhere",
+    "Personalized report content with mentor-like insights and varied daily messaging",
+    "PDF charts now have proper axes, date labels, and Mood + Energy legend",
+    "Fixed experiment completion showing 'Not enough data' despite 100% adherence",
+    "Edit modal in Today's Log upon long press"
   ],
-  "minRequiredVersion": "1.0.0"
+  "minRequiredVersion": "1.0.0",
+  "history": [
+    {
+      "version": "1.0.0",
+      "releaseDate": "2026-02-09",
+      "changelog": [
+        "Photo attachments for diary entries",
+        "Sleep & wake tracking in Life Phases",
+        "Per-screen tag/metric visibility (Home/Log toggles)",
+        "Life Phases onboarding screen",
+        "FAQs in Settings (22 Q&As covering all analytics methods)",
+        "Extended time duration presets for activities",
+        "EAS over-the-air update integration",
+        "Experiments feature with templates and before/after metric analysis",
+        "Sleep data in Lab Trends analysis",
+        "Logging streak card and weekly grid card in Lab",
+        "Insight Milestones progress tracker in Lab",
+        "Compact stat cards in Lab Trends"
+      ]
+    }
+  ]
 }
